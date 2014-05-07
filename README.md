@@ -10,3 +10,5 @@ Make your browser "developer mode" by following:
 Then, try following:
 
 * "Chrome Preferences" -> "Extensions" -> "Load unpacked extension" -> Choose `chrome-extension-sample` directory
+
+*WIP*

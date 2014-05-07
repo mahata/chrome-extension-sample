@@ -2,14 +2,20 @@
     "name": "webnikki post app",
     "description": "an app to post to webnikki.",
     "version": "0.1",
-    "app": {
-        "background": {
-            "scripts": ["background.js"]
-        }
+    // "app": {
+    //     "background": {
+    //         "scripts": ["background.js"]
+    //     }
+    // },
+    "background": {
+	"scripts": ["main.js"],
+	"persistent": false
     },
     "icons": { "128": "128.png" },
     "permissions": [
+	"contextMenus",
         "http://*/",
         "https://*/"
-    ]
+    ],
+    "manifest_version": 2
 }
