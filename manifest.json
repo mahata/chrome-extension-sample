@@ -2,11 +2,6 @@
     "name": "webnikki post app",
     "description": "an app to post to webnikki.",
     "version": "0.1",
-    // "app": {
-    //     "background": {
-    //         "scripts": ["background.js"]
-    //     }
-    // },
     "background": {
 	"scripts": ["main.js"],
 	"persistent": false
