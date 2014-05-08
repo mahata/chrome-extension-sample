@@ -3,7 +3,7 @@
     "description": "an app to post to webnikki.",
     "version": "0.1",
     "background": {
-	"scripts": ["main.js"],
+	"scripts": ["wsse.js", "main.js"],
 	"persistent": false
     },
     "icons": { "128": "128.png" },
